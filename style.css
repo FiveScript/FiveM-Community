@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.imgur.com/huau5yp.png');
+    background-size: cover;
+    color: #fff;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header img.logo {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.menu-btn {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+}
+
+.burger-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.burger-menu a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: left;
+    padding: 50px 20px;
+    background: url('background.jpg') no-repeat center center/cover;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero .static-text {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 1.1;
+}
+
+.description {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 1.1;
+}
+
+.discord-section {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px; /* Adjust this value to position the Discord section */
+}
+
+.discord-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.discord-widget {
+    text-align: left;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.discord-widget iframe {
+    width: 300px;
+    height: 450px;
+}
+.partnerzy {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 62px;
+    line-height: 1.1;
+}
+.community {
+    font-size: 26px;
+    text-align: left;
+    margin-left: 10px;
+    line-height: 1.1;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.white-text {
+    color: white;
+}
+
+.red-text {
+    color: red;
+}
